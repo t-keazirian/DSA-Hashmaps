@@ -20,9 +20,11 @@ const main = () => {
 	lotr.set('HalfElven', 'Arwen');
 	lotr.set('Ent', 'Treebeard');
 
-  console.log(lotr.get('Maiar'));
-  console.log(lotr.get('Hobbit'));
+  // console.log(lotr.get('Maiar'));
+  // console.log(lotr.get('Hobbit'));
   console.log(lotr._capacity);
+	lotr.delete('RingBearer')
+	lotr._resize(10);
 
 	console.log(lotr);
 };

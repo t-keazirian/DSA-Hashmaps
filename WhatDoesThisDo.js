@@ -7,7 +7,7 @@ const HashMap = require('./HashMap');
 const WhatDoesThisDo = function(){
   // declares two string variables with the same values
   let str1 = 'Hello World.';
-  let str2 = 'Hello World.';
+  let str2 = 'Goodbye World.';
 
   // creates new HashMap
   let map1 = new HashMap();
@@ -38,9 +38,9 @@ const WhatDoesThisDo = function(){
   map2.set(str3,20);
   map2.set(str4,10);
 
-  // 10
+  
   console.log(map1.get(str1));
-  // 10
+  
   console.log(map2.get(str3));
 }
 
